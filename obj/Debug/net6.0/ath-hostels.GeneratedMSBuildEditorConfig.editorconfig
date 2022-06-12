@@ -43,6 +43,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zdGVsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Sebastian/Documents/GitHub/ath-hostels/ath-hostels/Views/Rooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastian/Documents/GitHub/ath-hostels/ath-hostels/Views/Rooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastian/Documents/GitHub/ath-hostels/ath-hostels/Views/Rooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastian/Documents/GitHub/ath-hostels/ath-hostels/Views/Rooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sebastian/Documents/GitHub/ath-hostels/ath-hostels/Views/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sebastian/Documents/GitHub/ath-hostels/ath-hostels/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

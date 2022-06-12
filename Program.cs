@@ -1,9 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ath_hostels.Data;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ath_hostelsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ath_hostelsContext") ?? throw new InvalidOperationException("Connection string 'ath_hostelsContext' not found.")));
+
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

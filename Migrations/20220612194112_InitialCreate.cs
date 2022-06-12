@@ -22,12 +22,32 @@ namespace ath_hostels.Migrations
                 {
                     table.PrimaryKey("PK_Hostel", x => x.HostelId);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Room",
+                columns: table => new
+                {
+                    RoomId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HostelId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Beds = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Room", x => x.RoomId);
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Hostel");
+
+            migrationBuilder.DropTable(
+                name: "Room");
         }
     }
 }

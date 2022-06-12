@@ -45,6 +45,37 @@ namespace ath_hostels.Migrations
 
                     b.ToTable("Hostel");
                 });
+
+            modelBuilder.Entity("ath_hostels.Models.Room", b =>
+                {
+                    b.Property<int>("RoomId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomId"), 1L, 1);
+
+                    b.Property<int>("Beds")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HostelId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("RoomId");
+
+                    b.ToTable("Room");
+                });
 #pragma warning restore 612, 618
         }
     }

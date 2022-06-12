@@ -15,5 +15,7 @@ namespace ath_hostels.Data
         }
 
         public DbSet<ath_hostels.Models.Hostel>? Hostel { get; set; }
+
+        public DbSet<ath_hostels.Models.Room>? Room { get; set; }
     }
 }
